@@ -7,6 +7,11 @@
 //
 
 import Foundation
-
+print("chapter 1")
 print(IsOddPuzzle.isOddStraightForward(i: -3))
 print(IsOddPuzzle.isOddFast(i: -3))
+print("chapter 2")
+TimeForAChange.printChangeStraightForward()
+TimeForAChange.printCGFloatChange()
+TimeForAChange.printChange()
+

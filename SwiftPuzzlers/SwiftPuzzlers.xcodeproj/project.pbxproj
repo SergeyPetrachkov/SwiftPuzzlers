@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A517F3B622301A860084B2C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3B522301A860084B2C5 /* main.swift */; };
 		A517F3BE22301AA60084B2C5 /* IsOddPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */; };
+		A517F3C122301C130084B2C5 /* TimeForAChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C022301C130084B2C5 /* TimeForAChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		A517F3B222301A860084B2C5 /* SwiftPuzzlers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPuzzlers; sourceTree = BUILT_PRODUCTS_DIR; };
 		A517F3B522301A860084B2C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsOddPuzzle.swift; sourceTree = "<group>"; };
+		A517F3C022301C130084B2C5 /* TimeForAChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeForAChange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +61,27 @@
 		A517F3B422301A860084B2C5 /* SwiftPuzzlers */ = {
 			isa = PBXGroup;
 			children = (
-				A517F3BC22301A920084B2C5 /* IsOdd */,
+				A517F3BF22301BFC0084B2C5 /* 2_TimeForAChange */,
+				A517F3BC22301A920084B2C5 /* 1_IsOdd */,
 				A517F3B522301A860084B2C5 /* main.swift */,
 			);
 			path = SwiftPuzzlers;
 			sourceTree = "<group>";
 		};
-		A517F3BC22301A920084B2C5 /* IsOdd */ = {
+		A517F3BC22301A920084B2C5 /* 1_IsOdd */ = {
 			isa = PBXGroup;
 			children = (
 				A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */,
 			);
-			path = IsOdd;
+			path = 1_IsOdd;
+			sourceTree = "<group>";
+		};
+		A517F3BF22301BFC0084B2C5 /* 2_TimeForAChange */ = {
+			isa = PBXGroup;
+			children = (
+				A517F3C022301C130084B2C5 /* TimeForAChange.swift */,
+			);
+			path = 2_TimeForAChange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A517F3C122301C130084B2C5 /* TimeForAChange.swift in Sources */,
 				A517F3B622301A860084B2C5 /* main.swift in Sources */,
 				A517F3BE22301AA60084B2C5 /* IsOddPuzzle.swift in Sources */,
 			);

@@ -14,4 +14,6 @@ print("chapter 2")
 TimeForAChange.printChangeStraightForward()
 TimeForAChange.printCGFloatChange()
 TimeForAChange.printChange()
+print("chapter 3")
+LongDivision.printResult()
 

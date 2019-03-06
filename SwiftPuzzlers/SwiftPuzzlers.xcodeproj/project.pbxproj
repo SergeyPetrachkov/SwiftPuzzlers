@@ -10,6 +10,7 @@
 		A517F3B622301A860084B2C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3B522301A860084B2C5 /* main.swift */; };
 		A517F3BE22301AA60084B2C5 /* IsOddPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */; };
 		A517F3C122301C130084B2C5 /* TimeForAChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C022301C130084B2C5 /* TimeForAChange.swift */; };
+		A517F3C422301E330084B2C5 /* LongDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C322301E330084B2C5 /* LongDivision.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		A517F3B522301A860084B2C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsOddPuzzle.swift; sourceTree = "<group>"; };
 		A517F3C022301C130084B2C5 /* TimeForAChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeForAChange.swift; sourceTree = "<group>"; };
+		A517F3C322301E330084B2C5 /* LongDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongDivision.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 		A517F3B422301A860084B2C5 /* SwiftPuzzlers */ = {
 			isa = PBXGroup;
 			children = (
-				A517F3BF22301BFC0084B2C5 /* 2_TimeForAChange */,
 				A517F3BC22301A920084B2C5 /* 1_IsOdd */,
+				A517F3BF22301BFC0084B2C5 /* 2_TimeForAChange */,
+				A517F3C222301E0F0084B2C5 /* 3_LongDivision */,
 				A517F3B522301A860084B2C5 /* main.swift */,
 			);
 			path = SwiftPuzzlers;
@@ -82,6 +85,14 @@
 				A517F3C022301C130084B2C5 /* TimeForAChange.swift */,
 			);
 			path = 2_TimeForAChange;
+			sourceTree = "<group>";
+		};
+		A517F3C222301E0F0084B2C5 /* 3_LongDivision */ = {
+			isa = PBXGroup;
+			children = (
+				A517F3C322301E330084B2C5 /* LongDivision.swift */,
+			);
+			path = 3_LongDivision;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				A517F3C122301C130084B2C5 /* TimeForAChange.swift in Sources */,
 				A517F3B622301A860084B2C5 /* main.swift in Sources */,
+				A517F3C422301E330084B2C5 /* LongDivision.swift in Sources */,
 				A517F3BE22301AA60084B2C5 /* IsOddPuzzle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

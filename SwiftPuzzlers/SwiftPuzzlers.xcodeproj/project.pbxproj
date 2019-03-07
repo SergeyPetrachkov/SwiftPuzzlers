@@ -11,6 +11,10 @@
 		A517F3BE22301AA60084B2C5 /* IsOddPuzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */; };
 		A517F3C122301C130084B2C5 /* TimeForAChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C022301C130084B2C5 /* TimeForAChange.swift */; };
 		A517F3C422301E330084B2C5 /* LongDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C322301E330084B2C5 /* LongDivision.swift */; };
+		A517F3C722301FEC0084B2C5 /* Elementary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C622301FEC0084B2C5 /* Elementary.swift */; };
+		A517F3CA223021300084B2C5 /* HexJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3C9223021300084B2C5 /* HexJoy.swift */; };
+		A517F3CD223023680084B2C5 /* Multicast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3CC223023680084B2C5 /* Multicast.swift */; };
+		A517F3D02230256B0084B2C5 /* DosEquis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A517F3CF2230256B0084B2C5 /* DosEquis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,10 @@
 		A517F3BD22301AA60084B2C5 /* IsOddPuzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsOddPuzzle.swift; sourceTree = "<group>"; };
 		A517F3C022301C130084B2C5 /* TimeForAChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeForAChange.swift; sourceTree = "<group>"; };
 		A517F3C322301E330084B2C5 /* LongDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongDivision.swift; sourceTree = "<group>"; };
+		A517F3C622301FEC0084B2C5 /* Elementary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elementary.swift; sourceTree = "<group>"; };
+		A517F3C9223021300084B2C5 /* HexJoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexJoy.swift; sourceTree = "<group>"; };
+		A517F3CC223023680084B2C5 /* Multicast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multicast.swift; sourceTree = "<group>"; };
+		A517F3CF2230256B0084B2C5 /* DosEquis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DosEquis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				A517F3BC22301A920084B2C5 /* 1_IsOdd */,
 				A517F3BF22301BFC0084B2C5 /* 2_TimeForAChange */,
 				A517F3C222301E0F0084B2C5 /* 3_LongDivision */,
+				A517F3C522301FD80084B2C5 /* 4_Elementary */,
+				A517F3C8223020F80084B2C5 /* 5_HexJoy */,
+				A517F3CB223023560084B2C5 /* 6_Multicast */,
+				A517F3CE223025500084B2C5 /* 8_DosEquis */,
 				A517F3B522301A860084B2C5 /* main.swift */,
 			);
 			path = SwiftPuzzlers;
@@ -93,6 +105,38 @@
 				A517F3C322301E330084B2C5 /* LongDivision.swift */,
 			);
 			path = 3_LongDivision;
+			sourceTree = "<group>";
+		};
+		A517F3C522301FD80084B2C5 /* 4_Elementary */ = {
+			isa = PBXGroup;
+			children = (
+				A517F3C622301FEC0084B2C5 /* Elementary.swift */,
+			);
+			path = 4_Elementary;
+			sourceTree = "<group>";
+		};
+		A517F3C8223020F80084B2C5 /* 5_HexJoy */ = {
+			isa = PBXGroup;
+			children = (
+				A517F3C9223021300084B2C5 /* HexJoy.swift */,
+			);
+			path = 5_HexJoy;
+			sourceTree = "<group>";
+		};
+		A517F3CB223023560084B2C5 /* 6_Multicast */ = {
+			isa = PBXGroup;
+			children = (
+				A517F3CC223023680084B2C5 /* Multicast.swift */,
+			);
+			path = 6_Multicast;
+			sourceTree = "<group>";
+		};
+		A517F3CE223025500084B2C5 /* 8_DosEquis */ = {
+			isa = PBXGroup;
+			children = (
+				A517F3CF2230256B0084B2C5 /* DosEquis.swift */,
+			);
+			path = 8_DosEquis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A517F3C122301C130084B2C5 /* TimeForAChange.swift in Sources */,
+				A517F3C722301FEC0084B2C5 /* Elementary.swift in Sources */,
+				A517F3CD223023680084B2C5 /* Multicast.swift in Sources */,
 				A517F3B622301A860084B2C5 /* main.swift in Sources */,
 				A517F3C422301E330084B2C5 /* LongDivision.swift in Sources */,
+				A517F3CA223021300084B2C5 /* HexJoy.swift in Sources */,
+				A517F3D02230256B0084B2C5 /* DosEquis.swift in Sources */,
 				A517F3BE22301AA60084B2C5 /* IsOddPuzzle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
